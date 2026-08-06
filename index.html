@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RewindGo — Tienda Online</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script src="js/lang.js"></script>
+<script src="js/modal.js"></script>
+
+<header>
+  <div class="navbar">
+    <div class="logo">
+      <span class="mark">RG</span>
+      <div>
+        REWINDGO
+        <span class="sub">Home Navigation Device</span>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="#top" data-lang="nav-home">Home</a>
+      <a href="#product" data-lang="nav-shop">Shop</a>
+      <a href="#how" data-lang="nav-how">How It Works</a>
+      <a href="#contact" data-lang="nav-support">Support</a>
+    </nav>
+    <div class="search-bar">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" placeholder="Search products...">
+    </div>
+    <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+      <span class="lang-text">ES</span>
+    </button>
+    <button class="icon-btn" aria-label="Cart">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <div class="eyebrow" data-lang="hero-eyebrow">Home Navigation Device</div>
+      <h1><span data-lang="hero-title-1">Return home</span><br><span data-lang="hero-title-2">with just</span> <em data-lang="hero-title-em">one click</em>.</h1>
+      <p class="lead" data-lang="hero-description">RewindGo is the pocket-sized remote that memorizes the path to your home and "rewinds" you to the door, no matter where you are: at the supermarket, on the street, or in a new place.</p>
+      <div class="hero-ctas">
+        <button class="btn-primary" data-lang="btn-buy">Buy Now — $89.900 COP</button>
+        <a href="#how" class="btn-ghost">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          <span data-lang="btn-how">How It Works</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div><b data-lang="stat-1-value">1</b><span data-lang="stat-1-label">Button</span></div>
+        <div><b data-lang="stat-2-value">5 days</b><span data-lang="stat-2-label">Battery</span></div>
+        <div><b data-lang="stat-3-value">IP54</b><span data-lang="stat-3-label">Water Resistant</span></div>
+      </div>
+    </div>
+
+    <div class="dial-stage">
+      <img src="img/product_2.png" alt="Brújula digital de RewindGo" />
+    </div>
+  </section>
+
+  <!-- PRODUCT -->
+  <section class="product wrap" id="product">
+    <div class="product-image">
+      <span class="tag-price">$89.900 COP</span>
+      <img src="img/product_1.png" alt="RewindGo - Dispositivo de navegación" />
+    </div>
+
+    <div class="product-desc">
+      <div class="eyebrow" data-lang="product-eyebrow">Product Description</div>
+      <h2 data-lang="product-title">One button. One destination: your home.</h2>
+      <p data-lang="product-desc-1">RewindGo is programmed just once from the app: you save your home location as a fixed "rewind" point. From then on, you carry the remote with you wherever you go.</p>
+      <p data-lang="product-desc-2">When you want to return, press the red REWIND button. The light ring and vibration guide you step by step, as if the path rewinds itself, until you reach your door.</p>
+
+      <div class="steps" id="how">
+        <div class="step"><span class="n">01</span><p data-lang="step-1">Set your home as a fixed destination in the RewindGo app.</p></div>
+        <div class="step"><span class="n">02</span><p data-lang="step-2">Go out peacefully and carry the remote in your pocket or keychain.</p></div>
+        <div class="step"><span class="n">03</span><p data-lang="step-3">Press REWIND and follow the light arrow until you get home.</p></div>
+      </div>
+
+      <div class="price-box">
+        <div class="price"><span data-lang="price-label">Price</span>$89.900 COP</div>
+        <button class="btn-primary" data-lang="btn-buy-2">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECS / ACTIVIDAD 4 -->
+  <section class="specs wrap">
+    <h2 data-lang="specs-title">Product Specifications</h2>
+    <p class="lead" data-lang="specs-lead">Complete information about RewindGo for your online store.</p>
+    <div class="spec-grid">
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-name">Product Name</span>
+        <div class="value">RewindGo</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-category">Category</span>
+        <div class="value">Electronics / Personal Navigation Devices</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-price">Price</span>
+        <div class="value">$89.900 COP</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-features">Features</span>
+        <div class="value" data-lang="spec-features-value">Unique "Rewind" button, integrated GPS, single programmable destination (your home), light ring and vibration guidance, mobile app connection, 5-day battery, water resistant (IP54)</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-payment">Payment Methods</span>
+        <div class="value" data-lang="spec-payment-value">Debit/Credit Card, PSE, PayPal, Cash on Delivery</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-color">Color</span>
+        <div class="value">
+          Graphite Black, Ice White, Retro Blue
+          <div class="swatches">
+            <span class="swatch" style="background:#2b2f38"></span>
+            <span class="swatch" style="background:#eef1f5"></span>
+            <span class="swatch" style="background:#3a5f8a"></span>
+          </div>
+        </div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-size">Size</span>
+        <div class="value" data-lang="spec-size-value">4 cm × 4 cm × 1.2 cm — fits on a keychain</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-material">Material</span>
+        <div class="value" data-lang="spec-material-value">Anodized aluminum casing with silicone button</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-customer">Target Customer</span>
+        <div class="value" data-lang="spec-customer-value">Elderly adults, children, tourists, people with reduced orientation, and anyone who wants to get home without thinking about the route</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-delivery">Delivery Methods</span>
+        <div class="value" data-lang="spec-delivery-value">National shipping (2–5 days), express shipping (24 h), in-store pickup</div>
+      </div>
+      <div class="spec-cell">
+        <span class="label" data-lang="spec-contact">Contact Customer Service</span>
+        <div class="value" data-lang="spec-contact-value">Live chat, WhatsApp, email support@rewindgo.com, phone line 601 555 0199</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4 data-lang="footer-title">RewindGo</h4>
+        <p data-lang="footer-desc">The remote that rewinds you home. Designed so you never miss the way back.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-lang="footer-shop">Shop</h4>
+        <a href="#product" data-lang="product-eyebrow">Product</a>
+        <a href="#how" data-lang="btn-how">How It Works</a>
+        <a href="#" data-lang="footer-accessories">Accessories</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-lang="footer-support">Support</h4>
+        <a href="#" data-lang="footer-faq">FAQ</a>
+        <a href="#" data-lang="footer-shipping">Shipping</a>
+        <a href="#" data-lang="footer-returns">Returns</a>
+      </div>
+      <div class="footer-col">
+        <h4 data-lang="footer-contact">Contact Us</h4>
+        <p data-lang="footer-email">support@rewindgo.com</p>
+        <p data-lang="footer-whatsapp">WhatsApp: +57 300 123 4567</p>
+        <p data-lang="footer-location">Bogotá, Colombia</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-lang="footer-copyright">© 2026 RewindGo. All rights reserved.</span>
+      <span data-lang="footer-credit">Made for Activity 5 — English Learning Area</span>
+    </div>
+  </div>
+</footer>
+
+<!-- IMAGE MODAL -->
+<div id="imageModal" class="image-modal">
+  <span class="modal-close">&times;</span>
+  <img class="modal-image" src="" alt="Full size image">
+</div>
+
+</body>
+</html>
